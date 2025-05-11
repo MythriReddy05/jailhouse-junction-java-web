@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { PlusCircle, Pencil, Trash2, Prison } from 'lucide-react';
+import { PlusCircle, Pencil, Trash2, Building2 } from 'lucide-react';
 import { usePrison, Prisoner } from '../context/PrisonContext';
 import Layout from '../components/layout/Layout';
 import { Button } from '@/components/ui/button';
@@ -162,7 +162,7 @@ const Prisoners = () => {
                             onClick={() => handleAssignClick(prisoner.id)}
                             className="h-8 w-8"
                           >
-                            <Prison className="h-4 w-4" />
+                            <Building2 className="h-4 w-4" />
                           </Button>
                           <Button 
                             variant="outline" 
