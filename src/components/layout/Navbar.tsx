@@ -15,8 +15,7 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center mb-4 md:mb-0">
-            <Building2 className="h-8 w-8 text-prison-blue mr-2" />
-            <h1 className="text-2xl font-bold text-prison-blue">Prison Management System</h1>
+            <h1 className="text-2xl font-bold text-prison-blue">PrisonMS</h1>
           </div>
           
           <div className="flex flex-wrap justify-center gap-2">
@@ -25,28 +24,28 @@ const Navbar: React.FC = () => {
               className={`${isActive('/')} flex items-center px-4 py-2 rounded-md text-sm font-medium transition-colors`}
             >
               <Building2 className="h-4 w-4 mr-2" />
-              Home
+              Dashboard
             </Link>
             <Link 
               to="/prisoners" 
               className={`${isActive('/prisoners')} flex items-center px-4 py-2 rounded-md text-sm font-medium transition-colors`}
             >
               <Users className="h-4 w-4 mr-2" />
-              Prisoner Management
+              Prisoners
             </Link>
             <Link 
               to="/cells" 
               className={`${isActive('/cells')} flex items-center px-4 py-2 rounded-md text-sm font-medium transition-colors`}
             >
               <Grid className="h-4 w-4 mr-2" />
-              Cell Management
+              Cells
             </Link>
             <Link 
               to="/staff" 
               className={`${isActive('/staff')} flex items-center px-4 py-2 rounded-md text-sm font-medium transition-colors`}
             >
               <UserSquare2 className="h-4 w-4 mr-2" />
-              Staff Management
+              Staff
             </Link>
           </div>
         </div>

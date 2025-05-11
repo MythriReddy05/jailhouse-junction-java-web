@@ -13,16 +13,8 @@ const Index = () => {
         <div className="max-w-4xl w-full text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-prison-blue">Prison Management System</h1>
           <p className="text-lg text-prison-gray mb-8">
-            A comprehensive solution for managing prison operations efficiently
+            A comprehensive solution for prison administration
           </p>
-          
-          <div className="flex justify-center mb-8">
-            <img 
-              src="https://images.unsplash.com/photo-1584446922564-7252ca8c11ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" 
-              alt="Prison Facility" 
-              className="rounded-lg shadow-lg w-full max-w-2xl h-64 object-cover"
-            />
-          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-4xl mb-8">
@@ -31,7 +23,7 @@ const Index = () => {
               <CardTitle className="flex justify-center">
                 <Users className="h-8 w-8 text-prison-blue mb-2" />
               </CardTitle>
-              <CardTitle>Prisoner Management</CardTitle>
+              <CardTitle>Prisoners</CardTitle>
               <CardDescription>Handle prisoner records efficiently</CardDescription>
             </CardHeader>
             <CardContent className="pt-4 text-center">
@@ -49,7 +41,7 @@ const Index = () => {
               <CardTitle className="flex justify-center">
                 <Grid className="h-8 w-8 text-prison-blue mb-2" />
               </CardTitle>
-              <CardTitle>Cell Management</CardTitle>
+              <CardTitle>Cells</CardTitle>
               <CardDescription>Organize prisoner housing</CardDescription>
             </CardHeader>
             <CardContent className="pt-4 text-center">
@@ -67,7 +59,7 @@ const Index = () => {
               <CardTitle className="flex justify-center">
                 <UserSquare2 className="h-8 w-8 text-prison-blue mb-2" />
               </CardTitle>
-              <CardTitle>Staff Management</CardTitle>
+              <CardTitle>Staff</CardTitle>
               <CardDescription>Oversee prison personnel</CardDescription>
             </CardHeader>
             <CardContent className="pt-4 text-center">
@@ -82,19 +74,11 @@ const Index = () => {
         </div>
 
         <div className="bg-prison-light-gray p-6 rounded-lg max-w-4xl w-full">
-          <h2 className="text-2xl font-bold mb-4 text-prison-blue">About This System</h2>
+          <h2 className="text-2xl font-bold mb-4 text-prison-blue">About</h2>
           <p className="mb-4">
             This Prison Management System is designed as a database-driven application for correctional facilities. 
-            It demonstrates a full-stack implementation using Java (Spring Boot) with a SQL database backend.
+            It uses Java with a SQL database backend.
           </p>
-          <p className="mb-2">Key features include:</p>
-          <ul className="list-disc pl-6 mb-4">
-            <li>Complete prisoner record management</li>
-            <li>Cell assignment and capacity tracking</li>
-            <li>Staff scheduling and information management</li>
-            <li>Full SQL database integration with proper relationships</li>
-            <li>Normalized database design (3NF compliant)</li>
-          </ul>
           <p>
             This interface demonstrates how the system would function with a Java backend implementation.
           </p>
